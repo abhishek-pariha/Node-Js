@@ -5,7 +5,7 @@ var fib = function(n) {
       var arr = fib(n - 1);
       arr.push(arr[arr.length - 1] + arr[arr.length - 2]);
       return arr;
-    }
+    } 
   };
   
   console.log(fib(8));

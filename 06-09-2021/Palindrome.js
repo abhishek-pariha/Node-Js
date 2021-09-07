@@ -6,7 +6,7 @@ function checkplaindrome(str)
         if(String[i] !== String[len - 1 - i])
         {
             return "It is not a Palindrome";
-        }
+        } 
     }
     return "It is Palindrome";
 }

@@ -7,7 +7,7 @@ function factorial(n){
         answer = answer * i;
       }
       return answer;
-    }  
+    }   
   }
   let n = 4;
   answer = factorial(n)

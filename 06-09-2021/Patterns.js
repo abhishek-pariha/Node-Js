@@ -6,6 +6,6 @@ for(var i=0;i<=n;i++)
     {
         string += String.fromCharCode(j+65);
     }
-    string +="\n";
+    string += "\n";
 }
 console.log(string);
