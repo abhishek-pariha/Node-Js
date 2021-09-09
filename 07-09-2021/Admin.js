@@ -6,6 +6,8 @@ http.createServer(function(req,rs){
         rs.end("Hey Student Welcome");
     }
     else if(req.url == "/admin"){
+        rs.end("Hey Admin Welcome");
+    }
     else {
         rs.end("This is my main page 0215");
     }
